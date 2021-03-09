@@ -1,0 +1,134 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+/* 팔레트 */
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-dark-white: #bdbdbd;
+  --color-pink: #fe918d;
+  --color-dark-pink: #ff6863;
+  --color-black: #000000;
+  --color-grey: #616161;
+  --color-light-grey: #7c7979;
+  --color-dark-grey: #4d4d4d;
+  --color-blue: #73aace;
+  --color-yellow: #fff7d1;
+  --color-orange: #feb546;
+  --color-navy: #263343;
+  --color-light-navy: #4f5867;
+
+  /* Font size */
+  --font-large: 34px;
+  --font-medium: 28px;
+  --font-regular: 20px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+  --size-border-radius: 4px;
+
+  /*Annimation*/
+  --animation-duration: 300ms;
+}
+
+/* 화면 폰트 */
+body {
+  font-family: Noto Sans KR;
+  margin: 0;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+/* 메인 페이지 < section */
+section {
+  width: 100%;
+}
+
+/* 메인 페이지 < section_one */
+.section_one {
+  width: 1200px;
+  height: 620px;
+  margin: 10px auto;
+  padding: 20px;
+  /* background: pink; */
+}
+
+.section_one_title {
+  width: 1200px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.section_one_title h3 {
+  font-size: var(--font-regular);
+  text-align: center;
+}
+
+.section_one_left {
+  width: 750px;
+  height: 540px;
+  float: left;
+  /* background: white; */
+}
+
+.section_one_left li {
+  float: left;
+}
+
+.s_o_l_box1 {
+  width: 200px;
+  height: 200px;
+  background: navy;
+  margin-left: 175px;
+}
+
+.s_o_l_box2 {
+  width: 275px;
+  height: 275px;
+  background: red;
+  margin-left: 30px;
+}
+
+.s_o_l_box3 {
+  width: 320px;
+  height: 220px;
+  background: yellow;
+  margin-left: 55px;
+  margin-bottom: 50px;
+}
+
+.s_o_l_box4 {
+  width: 180px;
+  height: 180px;
+  background: orange;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.section_one_right {
+  float: right;
+  width: 340px;
+}
+
+.section_one_right h4 {
+  font-weight: bold;
+  font-size: var(--font-medium);
+  margin-bottom: 20px;
+}
+
+.section_one_right p {
+  font-size: var(--font-small);
+  margin-bottom: 40px;
+}
