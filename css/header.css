@@ -1,20 +1,21 @@
 header {
   width: 100%;
-  height: 100px;
+  height: 110px;
   background: var(--color-navy);
 }
 
 /* 유틸 */
 .util_menu {
   width: 1200px;
-  height: 30px;
+  height: 40px;
   margin: 0 auto;
 }
 
 .util {
   width: 1200px;
   height: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
+  margin-bottom: 10px;
 }
 
 .utilMenu {
@@ -26,7 +27,7 @@ header {
   border-right: 1px solid #ccc;
   padding: 0 10px;
   color: var(--color-white);
-  font-size: var(--font-small);
+  font-size: 12px;
 }
 
 .utilMenu li:last-child {
@@ -52,7 +53,7 @@ header {
 .header_in .logo {
   float: left;
   font-size: var(--font-medium);
-  width: 100px;
+  width: 150px;
   height: 60px;
 }
 
@@ -73,12 +74,12 @@ header {
 
 .header_in .menu li {
   float: left;
-  width: 100px;
+  width: 130px;
 }
 
 .header_in .menu li a {
   display: block;
-  width: 80px;
+  width: 130px;
   height: 60px;
   line-height: 60px;
   margin: 0 auto;

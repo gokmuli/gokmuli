@@ -48,7 +48,6 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--color-white);
 }
 
 /* 메인 페이지 < section */
@@ -60,15 +59,13 @@ section {
 .section_one {
   width: 1200px;
   height: 620px;
-  margin: 10px auto;
-  padding: 20px;
-  /* background: pink; */
+  margin: 20px auto;
 }
 
 .section_one_title {
   width: 1200px;
-  height: 50px;
-  margin-bottom: 15px;
+  height: 60px;
+  margin-bottom: 20px;
 }
 
 .section_one_title h3 {
@@ -77,58 +74,101 @@ section {
 }
 
 .section_one_left {
-  width: 750px;
-  height: 540px;
+  width: 800px;
+  height: 520px;
   float: left;
-  /* background: white; */
 }
 
-.section_one_left li {
+.left_box {
   float: left;
+  width: 380px;
+  height: 520px;
 }
 
 .s_o_l_box1 {
   width: 200px;
   height: 200px;
   background: navy;
-  margin-left: 175px;
+  margin-left: 180px;
 }
 
 .s_o_l_box2 {
-  width: 275px;
-  height: 275px;
-  background: red;
-  margin-left: 30px;
+  width: 320px;
+  height: 240px;
+  background: yellow;
+  margin: 40px 0 0 60px;
+}
+
+.right_box {
+  float: right;
+  width: 380px;
+  height: 520px;
+  margin-left: 40px;
 }
 
 .s_o_l_box3 {
   width: 320px;
-  height: 220px;
-  background: yellow;
-  margin-left: 55px;
-  margin-bottom: 50px;
+  height: 320px;
+  background: red;
 }
 
 .s_o_l_box4 {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   background: orange;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 40px;
 }
 
 .section_one_right {
   float: right;
-  width: 340px;
+  width: 380px;
+  height: 520px;
+  margin-left: 20px;
 }
 
 .section_one_right h4 {
   font-weight: bold;
   font-size: var(--font-medium);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .section_one_right p {
   font-size: var(--font-small);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+/* 메인 페이지 < section_two */
+.section_two {
+  width: 1200px;
+  height: 500px;
+  margin: 20px auto;
+}
+
+.section_two_title {
+  width: 1200px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.section_two_title h3 {
+  font-size: var(--font-regular);
+  text-align: center;
+}
+
+.section_two_workitem {
+  width: 1200px;
+  height: 420px;
+}
+
+.section_two_workitem ul {
+  width: 840px;
+  margin: 0 auto;
+}
+
+.section_two_workitem li {
+  width: 240px;
+  height: 400px;
+  float: left;
+  margin: 0 20px;
+  background: skyblue;
 }

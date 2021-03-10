@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  height: 160px;
+  height: 150px;
   background: url(../image/backbg.png);
 }
 
@@ -12,20 +12,29 @@ footer {
 }
 
 .contact_links {
-  width: 300px;
-  height: 60px;
+  width: 1200px;
+  height: 50px;
+  padding: 10px 0;
+}
+
+.contact_links ul {
+  width: 270px;
+  height: 50px;
   margin: 0 auto;
 }
 
-.contact_links a {
-  width: 100px;
-  height: 60px;
+.contact_links li {
+  margin: 0 20px;
   float: left;
-  font-size: 50px;
   text-align: center;
 }
 
+.contact_links a {
+  /* font-size: 40px; */
+}
+
 .contact_links i {
+  font-size: 50px;
   color: var(--color-white);
   transition: all var(--animation-duration) ease;
 }
@@ -38,16 +47,14 @@ footer {
 .contact_description {
   width: 1200px;
   height: 30px;
-  margin-top: 10px;
+  margin: 20px auto 10px;
 }
 
 .contact_description .text {
-  width: 160px;
-  height: 30px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .contact_description p {
   color: var(--color-white);
-  font-size: 30px;
+  font-size: 20px;
 }
