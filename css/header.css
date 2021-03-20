@@ -52,7 +52,7 @@ header {
 
 .header_in .logo {
   float: left;
-  font-size: var(--font-medium);
+  font-size: var(--font-regular);
   width: 150px;
   height: 60px;
 }
