@@ -1,6 +1,7 @@
 @import url(common.css);
 @import url(header.css);
 @import url(footer.css);
+@import url(sub.css);
 
 /* 팔레트 */
 :root {
@@ -59,7 +60,7 @@ section {
 .section_one {
   width: 1200px;
   height: 620px;
-  margin: 80px auto;
+  margin: 100px auto;
 }
 
 .section_one_title {
@@ -141,7 +142,7 @@ section {
 .section_two {
   width: 1200px;
   height: 500px;
-  margin: 80px auto;
+  margin: 100px auto;
 }
 
 .section_two_title {
@@ -205,7 +206,7 @@ section {
 .section_three {
   width: 1200px;
   height: 650px;
-  margin: 20px auto;
+  margin: 100px auto;
 }
 
 .section_three_title {
@@ -215,7 +216,7 @@ section {
 }
 
 .section_three_title h3 {
-  font-size: var(--font-regular);
+  font-size: 16px;
   text-align: center;
 }
 
@@ -303,7 +304,7 @@ section {
 .section_four {
   width: 1200px;
   height: 250px;
-  margin: 20px auto;
+  margin: 100px auto;
 }
 
 .section_four_title {
@@ -313,7 +314,7 @@ section {
 }
 
 .section_four_title h3 {
-  font-size: var(--font-regular);
+  font-size: 16px;
   text-align: center;
 }
 

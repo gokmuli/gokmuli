@@ -1,0 +1,52 @@
+/* about */
+section {
+  width: 100%;
+}
+
+/* about_section_title */
+.about_section_title {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  background: yellow;
+}
+
+.about_section_title h2 {
+  padding: 120px 0 0 20px;
+  font-size: 24px;
+}
+
+/* about_section_one */
+.about_section_one {
+  width: 1200px;
+  height: 300px;
+  margin: 30px auto;
+}
+
+.about_section_one_box {
+  padding-left: 200px;
+}
+
+.about_section_one_box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about_section_one_box p {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+/* about_section_two */
+.skillset {
+  display: flex;
+  background-color: var(--color-light-grey);
+  color: var(--color-light-white);
+  margin: 20px 0;
+}
+
+.skillset_title {
+  color: var(--color-white);
+}
+
+/* /스킬 퍼센트 꾸미기 */
