@@ -12,37 +12,71 @@ section {
 }
 
 .about_section_title h2 {
-  padding: 120px 0 0 20px;
+  padding: 100px 0 0 20px;
   font-size: 24px;
+}
+
+.about_section_title p {
+  padding: 0 0 0 20px;
+  font-size: 16px;
 }
 
 /* about_section_one */
 .about_section_one {
   width: 1200px;
-  height: 300px;
+  height: 150px;
   margin: 30px auto;
 }
 
 .about_section_one_box {
-  padding-left: 200px;
+  padding-left: 90px;
+  width: 500px;
+  height: 150px;
+  float: left;
 }
 
 .about_section_one_box h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  background: lightyellow;
+  width: 300px;
+  border: 1px solid orange;
+  border-radius: 50px;
+  text-align: center;
 }
 
 .about_section_one_box p {
   font-size: 16px;
   margin-bottom: 40px;
+  width: 500px;
 }
 
 /* about_section_two */
+.about_section_two {
+  background: var(--color-yellow);
+  height: 650px;
+  margin: 30px auto;
+}
+
+.about_section_two_container h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.about_section_two_container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .skillset {
   display: flex;
+  width: 1200px;
   background-color: var(--color-light-grey);
   color: var(--color-light-white);
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .skillset_title {
@@ -50,3 +84,58 @@ section {
 }
 
 /* /스킬 퍼센트 꾸미기 */
+.skillset_left {
+  flex-basis: 60%;
+  background-color: var(--color-dark-grey);
+  padding: 20px 40px;
+}
+
+.skillset_left h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skill {
+  margin-bottom: 32px;
+}
+
+.skill_description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill_bar {
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-grey);
+}
+
+.skill_value {
+  height: 3px;
+  background-color: var(--color-orange);
+}
+
+.skillset_right {
+  flex-basis: 40%;
+  text-align: center;
+}
+
+.skillset_right h3 {
+  margin-bottom: 10px;
+}
+
+.tools {
+  background-color: var(--color-grey);
+}
+
+.tools li {
+  margin-bottom: 15px;
+}
+
+.tools {
+  padding: 20px;
+}
+
+.etc {
+  padding: 20px;
+}
