@@ -13,11 +13,11 @@
   --color-dark-pink: #ff6863;
   --color-black: #000000;
   --color-grey: #616161;
-  --color-light-grey: #7c7979;
+  --color-light-grey: #a5a4a4;
   --color-dark-grey: #4d4d4d;
   --color-blue: #73aace;
   --color-yellow: #fff7d1;
-  --color-orange: #feb546;
+  --color-orange: #f59d1a;
   --color-navy: #263343;
   --color-light-navy: #4f5867;
 
@@ -89,14 +89,14 @@ section {
 .s_o_l_box1 {
   width: 200px;
   height: 200px;
-  background: navy;
+  background: var(--color-light-grey);
   margin-left: 180px;
 }
 
 .s_o_l_box2 {
   width: 320px;
   height: 240px;
-  background: yellow;
+  background: var(--color-light-grey);
   margin: 40px 0 0 60px;
 }
 
@@ -110,13 +110,13 @@ section {
 .s_o_l_box3 {
   width: 320px;
   height: 320px;
-  background: red;
+  background: var(--color-light-grey);
 }
 
 .s_o_l_box4 {
   width: 160px;
   height: 160px;
-  background: orange;
+  background: var(--color-light-grey);
   margin-top: 40px;
 }
 
@@ -172,7 +172,7 @@ section {
   height: 400px;
   float: left;
   margin: 0 20px;
-  background: skyblue;
+  background: var(--color-light-grey);
 }
 
 /* section two < work item < title */
@@ -228,11 +228,13 @@ section {
 }
 
 .category_btn {
-  border: 1px solid var(--color-dark-white);
+  border: 1px solid black;
   border-radius: var(--size-border-radius);
   font-size: var(--font-micro);
   margin: 0 10px;
   padding: 8px 30px;
+  background: var(--color-orange);
+  cursor: pointer;
 }
 
 .scetion_three_other_projects {
@@ -245,7 +247,7 @@ section {
   width: 250px;
   height: 240px;
   margin: 5px;
-  background: var(--color-light-white);
+  background: var(--color-light-grey);
   position: relative;
   display: flex;
   justify-content: center;
@@ -330,5 +332,5 @@ section {
   height: 150px;
   float: left;
   margin: 0 10px;
-  background: pink;
+  background: var(--color-light-grey);
 }

@@ -8,7 +8,7 @@ section {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
-  background: yellow;
+  background: var(--color-light-grey);
 }
 
 .about_section_title h2 {
@@ -18,14 +18,14 @@ section {
 
 .about_section_title p {
   padding: 0 0 0 20px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* about_section_one */
 .about_section_one {
   width: 1200px;
-  height: 150px;
-  margin: 30px auto;
+  height: 500px;
+  margin: 100px auto;
 }
 
 .about_section_one_box {
@@ -35,18 +35,24 @@ section {
   float: left;
 }
 
-.about_section_one_box h3 {
+.about_section_one h1 {
   font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.about_section_one_box h3 {
+  font-size: 18px;
   margin-bottom: 10px;
-  background: lightyellow;
+  background: var(--color-orange);
   width: 300px;
-  border: 1px solid orange;
+  border: 1px solid black;
   border-radius: 50px;
   text-align: center;
 }
 
 .about_section_one_box p {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 40px;
   width: 500px;
 }
@@ -55,7 +61,7 @@ section {
 .about_section_two {
   background: var(--color-yellow);
   height: 650px;
-  margin: 30px auto;
+  margin: 100px auto;
 }
 
 .about_section_two_container h4 {

@@ -36,7 +36,7 @@ header {
 
 .utilMenu li:hover a {
   font-weight: bold;
-  color: var(--color-pink);
+  color: var(--color-orange);
 }
 
 /* 메뉴 */
@@ -85,10 +85,10 @@ header {
   margin: 0 auto;
   text-align: center;
   color: var(--color-white);
-  font-size: 22px;
+  font-size: 17px;
 }
 
 .header_in .menu li a:hover {
-  color: var(--color-pink);
+  color: var(--color-orange);
   font-weight: bold;
 }

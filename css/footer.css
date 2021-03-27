@@ -36,7 +36,7 @@ footer {
 
 .contact_links i:hover {
   transform: scale(1.1);
-  color: var(--color-pink);
+  color: var(--color-orange);
 }
 
 .contact_rights {
