@@ -24,56 +24,80 @@ section {
 /* about_section_one */
 .about_section_one {
   width: 1200px;
-  height: 500px;
-  margin: 100px auto;
+  height: 340px;
+  margin: 80px auto;
 }
 
-.about_section_one_box {
-  padding-left: 90px;
-  width: 500px;
+.about_scetion_one_up,
+.about_scetion_one_down {
+  width: 1200px;
+  height: 150px;
+  margin: 40px auto;
+}
+
+.about_section_one_up_box {
+  width: 350px;
   height: 150px;
   float: left;
+  margin: 0 120px 0 120px;
 }
 
-.about_section_one h1 {
-  font-size: 20px;
-  margin: 20px;
-  text-align: center;
-}
-
-.about_section_one_box h3 {
+.about_section_one_up_box h3 {
   font-size: 18px;
   margin-bottom: 10px;
   background: var(--color-orange);
-  width: 300px;
+  width: 350px;
   border: 1px solid black;
   border-radius: 50px;
   text-align: center;
 }
 
-.about_section_one_box p {
+.about_section_one_up_box p {
   font-size: 14px;
-  margin-bottom: 40px;
-  width: 500px;
+  margin-bottom: 20px;
+  width: 350px;
+}
+
+.about_section_one_down_box {
+  width: 350px;
+  height: 150px;
+  float: left;
+  margin: 0 20px 0 20px;
+}
+
+.about_section_one_down_box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  background: var(--color-orange);
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.about_section_one_down_box p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 350px;
 }
 
 /* about_section_two */
 .about_section_two {
   background: var(--color-yellow);
-  height: 650px;
+  height: 750px;
   margin: 100px auto;
 }
 
 .about_section_two_container h4 {
   font-size: 20px;
   margin-bottom: 10px;
-  padding-top: 20px;
+  padding-top: 40px;
   text-align: center;
 }
 
 .about_section_two_container p {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -82,7 +106,7 @@ section {
   width: 1200px;
   background-color: var(--color-light-grey);
   color: var(--color-light-white);
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 .skillset_title {
